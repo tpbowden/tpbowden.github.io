@@ -1,0 +1,29 @@
+---
+---
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+}
+
+.profile-photo {
+  background-image: url("https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/005/08f/022/0bc722b.jpg");
+  background-size: 80px 80px;
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#social-links {
+  font-size: 50px;
+}
+
+#social-links a:hover {
+  text-decoration: none;
+}
