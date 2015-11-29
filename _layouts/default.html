@@ -26,5 +26,8 @@
 
       {% include footer.html %}
     </div>
+    {% if jekyll.environment == "production" %}
+      {% include gosquared.html %}
+    {% endif %}
   </body>
 </html>
