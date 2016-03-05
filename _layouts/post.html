@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="col-sm-12">
+    <h2>
+      {{ page.title }}
+      <div class="text-muted small">
+        {{ page.date | date_to_long_string }}
+      </div>
+    </h2>
+    {{ content }}    
+  </div>
+</div>

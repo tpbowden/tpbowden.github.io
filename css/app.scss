@@ -5,6 +5,10 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+.container {
+  max-width: 900px;
+}
+
 .heading {
   font-size: 50px;
 }
@@ -20,10 +24,19 @@ body {
   border-radius: 10px;
 }
 
-#social-links {
-  font-size: 50px;
+#social-links a:hover {
+  text-decoration: none;
 }
 
-#social-links a:hover {
+#title-link:link {
+  color: black;
+}
+
+#title-link:visited {
+  color: black;
+}
+
+#title-link:hover {
+  color: black;
   text-decoration: none;
 }

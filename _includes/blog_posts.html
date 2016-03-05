@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    Blog
+  </div>
+  <ul class="list-group">
+    {% for post in site.posts %}
+    {% if page.url == post.url %}
+      <a class="list-group-item active" href="{{post.url}}">
+    {% else %}
+      <a class="list-group-item" href="{{post.url}}">
+    {% endif %}
+      <strong>{{ post.title }}</strong>
+      <br>
+      {{ post.date | date_to_string }}
+    </a>
+    {% endfor %}
+  </ul>
+</div>
