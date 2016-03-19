@@ -128,7 +128,7 @@ work as a reveres proxy to your app, so it will send the request for an asset ba
 static asset to Nginx, which then sends it back to the client. The first time around this is a pretty bad way of doing
 this, but combined with Nginx's caching config this becomes extremely efficient when anybody else asks for the asset.
 using a few lines of config, you can get Nginx to keep hold of the asset it previously served ready for the next client
-who comes asking. Here's my snipped of Nginx config which turns on this functionality.
+who comes asking. Here's example Nginx config which turns on this functionality.
 
 {% highlight nginx %}
 upstream rails_upstream {
